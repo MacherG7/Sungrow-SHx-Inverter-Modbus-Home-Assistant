@@ -333,7 +333,7 @@ modbus:
         unit_of_measurement: "%"
         device_class: power_factor
         state_class: measurement
-        scale: 0.001
+        scale: 0.1
         scan_interval: *scan_interval_fast
 
       # only for inverters with 4 MPPTs (SH8|10RS)
